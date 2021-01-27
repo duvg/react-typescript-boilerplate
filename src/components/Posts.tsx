@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getPosts } from '../redux/effects/Posts';
 import { Post } from '../redux/interfaces/Post';
 import { AppState } from '../redux/store';
+import { Admin, Resource, ListGuesser } from 'react-admin'; 
 
 
 const Posts  = () => {
